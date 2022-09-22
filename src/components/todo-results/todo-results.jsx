@@ -7,11 +7,14 @@ export const TodoResults = () => {
   let count = 0
   
   const calculateChecked = () => {
+    if(todos){
     for (let i = 0; i < todos.length; i++) {
       if(todos[i].checked === true){
         count++;
       }
     }
+    }
+
     return count;
   };
 

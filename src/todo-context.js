@@ -1,16 +1,16 @@
 import React, { createContext } from "react";
 
-// import { todosTemplate } from "./app";
+import { todosTemplate } from "./app";
 
 export const TodosContext = createContext();
 
 const TodoContextProvider = (props) => {
-  const [todos, setTodos] = React.useState((todosTemplate) => {
+  const [todos, setTodos] = React.useState(() => {
     const lsTodos = localStorage.getItem("todos");
     if (lsTodos) {
       return JSON.parse(lsTodos);
     } else {
-      return;
+      return JSON.parse(todosTemplate);
     }
   });
 
