@@ -76,6 +76,8 @@ Broken To Do List Challenge
 
 ```
   npm i --legacy-peer-deps
+
+**if npm start causes problems
   export NODE_OPTIONS=--openssl-legacy-provider
   npm start
 ```
