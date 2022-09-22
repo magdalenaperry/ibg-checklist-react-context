@@ -43,6 +43,8 @@ Broken To Do List Challenge
 
 #### Deployed Links:
 
+[Check List Link](https://magdalenaperry.github.io/ibg-checklist-react-context/)
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ---

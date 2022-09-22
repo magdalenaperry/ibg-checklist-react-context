@@ -24,11 +24,8 @@ export const TodoList = () => {
   return (
     <div className="todo-list">
       <span className="todo-list-title">Todos:</span>
-      {!todos.length ? 
-      (
-        <div className="no-todos">Looks like you&apos;re absolutely free today!</div>
-      ) : (
-        <div className="todo-list-content">
+      {todos.length ? 
+      (<div className="todo-list-content">
           {todos.map((todoItem) => (
             <Checkbox
               key={todoItem.id}
@@ -40,6 +37,8 @@ export const TodoList = () => {
             />
           ))}
         </div>
+      ) : (
+        <div className="no-todos">Looks like you&apos;re absolutely free today!</div>
       )}
     </div>
   );
