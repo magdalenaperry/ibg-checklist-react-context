@@ -10,11 +10,9 @@ const TodoContextProvider = (props) => {
     if (lsTodos) {
       return JSON.parse(lsTodos);
     } else {
-      return todosTemplate;
+      return;
     }
   });
-
-  // setTodos(todosTemplate);
 
   const addTodos = (task) => {
     setTodos([...todos, task]);
