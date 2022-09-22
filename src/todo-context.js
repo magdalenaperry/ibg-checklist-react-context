@@ -10,7 +10,7 @@ const TodoContextProvider = (props) => {
     if (lsTodos) {
       return JSON.parse(lsTodos);
     } else {
-      return JSON.parse(todosTemplate);
+      return todosTemplate;
     }
   });
 
