@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ibg-checklist-react-context/static/css/main.122fae14.chunk.css",
+    "main.js": "/ibg-checklist-react-context/static/js/main.2aa84121.chunk.js",
+    "main.js.map": "/ibg-checklist-react-context/static/js/main.2aa84121.chunk.js.map",
+    "runtime-main.js": "/ibg-checklist-react-context/static/js/runtime-main.b26617b0.js",
+    "runtime-main.js.map": "/ibg-checklist-react-context/static/js/runtime-main.b26617b0.js.map",
+    "static/js/2.03251a5c.chunk.js": "/ibg-checklist-react-context/static/js/2.03251a5c.chunk.js",
+    "static/js/2.03251a5c.chunk.js.map": "/ibg-checklist-react-context/static/js/2.03251a5c.chunk.js.map",
+    "index.html": "/ibg-checklist-react-context/index.html",
+    "static/css/main.122fae14.chunk.css.map": "/ibg-checklist-react-context/static/css/main.122fae14.chunk.css.map",
+    "static/js/2.03251a5c.chunk.js.LICENSE.txt": "/ibg-checklist-react-context/static/js/2.03251a5c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b26617b0.js",
+    "static/js/2.03251a5c.chunk.js",
+    "static/css/main.122fae14.chunk.css",
+    "static/js/main.2aa84121.chunk.js"
+  ]
+}
