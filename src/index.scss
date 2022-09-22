@@ -19,16 +19,27 @@ body {
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-// above 600px
-@media (min-width: 600px) {
-  .root {
-    width: 600px;
-  }
-}
+
 // below 600px
 @media (max-width: 500px) {
   .root {
     width: 95%;
     font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .root {
+    width: 600px;
+  }
+}
+@media (min-width: 992px) {
+  .root {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .root {
+    width: 1170px;
   }
 }
